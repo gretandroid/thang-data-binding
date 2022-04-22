@@ -8,7 +8,7 @@ import androidx.databinding.ObservableInt
 import androidx.lifecycle.ViewModelProvider
 import com.example.databinding.databinding.ActivityMainBinding
 // => 1e challenge : Two way dat binding
-// => ajouter un slider pour modifier l'age
+// => ajouter un slider (SeekBar) pour modifier l'age
 
 // => 2e challenge : correction deux dés avec ModelViewScope
 // objectif :
