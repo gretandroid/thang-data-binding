@@ -7,6 +7,16 @@ import androidx.databinding.ObservableField
 import androidx.databinding.ObservableInt
 import androidx.lifecycle.ViewModelProvider
 import com.example.databinding.databinding.ActivityMainBinding
+// => 1e challenge : Two way dat binding
+// => ajouter un slider pour modifier l'age
+
+// => 2e challenge : correction deux dés avec ModelViewScope
+// objectif :
+// 1 - ajoute dependance pour le ViewModelScope
+// 2 - dans view model creer un MutualLiveData avec l'index et valeur
+// 3 - dans un ViewModelScope créer la coroutine calcul valeur du dé
+// répeter 20 fois
+// 4 - dans MainActivity creer un observer qui va permetre afficher les dés
 
 class MainActivity : AppCompatActivity() {
 
